@@ -1,0 +1,24 @@
+添加所有
+git add .
+
+添加指定文件
+git add xx.txt
+
+git commit -m "..."
+关联
+git remote add origin https://github.com/wentsunshine/learning
+克隆
+git clone https://github.com/wentsunshine/learning
+本地推送
+git push -u origin master
+
+合并
+git pull --rebase origin master
+
+本地上切换账号
+git config --global user.name ".."
+git config --global user.email "..."
+
+查看本地设置和属性
+git config --local --list
+git config user.name/email
