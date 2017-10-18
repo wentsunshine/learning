@@ -1,17 +1,13 @@
 import React from 'react'
 import { render } from 'react-dom'
+import Home from './containers/Home'
 
 import './static/css/common.less'
+import './static/css/iconfont.css'
 
-class Hello extends React.Component {
-    render() {
-        return (
-            <p>hello world</p>
-        )
-    }
-}
+
 
 render(
-    <Hello/>,
+    <Home/>,
     document.getElementById('root')
 )
